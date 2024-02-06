@@ -16,8 +16,13 @@ const numbers = [54, 98, 78, 21, 65];
 numbers[1] = 11;
 console.log(numbers);
 
+// string is immutable --> not changeable
+// array is mutable --> can change the array elements
 const capital = "Dhaka";
 console.log(capital);
-console.log(capital.length);
-console.log(capital[0]);
-console.log(capital[1]);
+// console.log(capital.length);
+// console.log(capital[0]);
+// console.log(capital[1]);
+
+capital[1]= 'q';
+
